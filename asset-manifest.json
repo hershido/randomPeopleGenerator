@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/randompeoplegenerator/static/css/main.16c7b55a.chunk.css",
+    "main.js": "/randompeoplegenerator/static/js/main.b8b63a09.chunk.js",
+    "main.js.map": "/randompeoplegenerator/static/js/main.b8b63a09.chunk.js.map",
+    "runtime-main.js": "/randompeoplegenerator/static/js/runtime-main.694e5f8c.js",
+    "runtime-main.js.map": "/randompeoplegenerator/static/js/runtime-main.694e5f8c.js.map",
+    "static/js/2.cfaf8368.chunk.js": "/randompeoplegenerator/static/js/2.cfaf8368.chunk.js",
+    "static/js/2.cfaf8368.chunk.js.map": "/randompeoplegenerator/static/js/2.cfaf8368.chunk.js.map",
+    "index.html": "/randompeoplegenerator/index.html",
+    "static/css/main.16c7b55a.chunk.css.map": "/randompeoplegenerator/static/css/main.16c7b55a.chunk.css.map",
+    "static/js/2.cfaf8368.chunk.js.LICENSE.txt": "/randompeoplegenerator/static/js/2.cfaf8368.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.694e5f8c.js",
+    "static/js/2.cfaf8368.chunk.js",
+    "static/css/main.16c7b55a.chunk.css",
+    "static/js/main.b8b63a09.chunk.js"
+  ]
+}
