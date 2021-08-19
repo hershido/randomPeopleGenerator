@@ -41,6 +41,7 @@ export default function Main() {
       <div className="mainContainer">
         <h1>{checkPeople()}</h1>
         <p>CHANGE</p>
+        <p>CHANGE2</p>
         <PersonList people={people} />
         <button onClick={addPerson} className="btn add-btn">
           Add Random Person
