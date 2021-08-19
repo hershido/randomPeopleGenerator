@@ -1,60 +1,59 @@
-import '../css/Main.css'
-import React, {useState} from 'react';
-import PersonList from './PersonList'
-import {data} from '../data';
+import "../css/Main.css";
+import React, { useState } from "react";
+import PersonList from "./PersonList";
+import { data } from "../data";
 import faker from "faker";
 
+export default function Main() {
+  const [people, setPeople] = useState(data);
 
-export default function Main(){
+  function addPerson() {
+    let fakeName = faker.name.findName();
+    let fakeAge = Math.floor(Math.random() * (65 - 20 + 1)) + 20;
+    let fakeImg = faker.image.avatar();
 
-    const [people, setPeople] = useState(data);
+    console.log(fakeImg);
 
-    function addPerson(){
+    let newPerson = {
+      id: people.length,
+      name: fakeName,
+      age: fakeAge,
+      img: fakeImg,
+    };
 
-        let fakeName = faker.name.findName();
-        let fakeAge = Math.floor(Math.random() * (65 - 20 + 1)) + 20;
-        let fakeImg = faker.image.avatar();
+    setPeople((prev) => {
+      return [...prev, newPerson];
+    });
+  }
 
-
-       
-        console.log(fakeImg);
-        
-
-        let newPerson = {
-            id:people.length,
-            name:fakeName,
-            age:fakeAge,
-            img:fakeImg
-        }
-
-        setPeople((prev)=>{
-            return [...prev,newPerson];
-        });
-
-
-        
+  function checkPeople() {
+    if (people.length === 0) {
+      return "Add a new person";
+    } else if (people.length === 1) {
+      return "1 random person";
+    } else {
+      return `${people.length} random people`;
     }
+  }
 
-    function checkPeople(){
-        if (people.length===0){
-            return 'Add a new person'
-        }else if (people.length===1){
-            return '1 random person';
-        }
-        else{
-            return `${people.length} random people`
-        }
-    }
-
-
-    return (
-        <main>
-            <div className="mainContainer">
-                <h1>{checkPeople()}</h1>
-                <PersonList people = {people}/>
-                <button onClick={addPerson} className="btn add-btn">Add Random Person</button>
-                <button onClick={()=>{setPeople([])}} className="btn clear-btn">Clear All</button>
-            </div>
-        </main>
-    )
+  return (
+    <main>
+      <div className="mainContainer">
+        <h1>{checkPeople()}</h1>
+        <p>CHANGE</p>
+        <PersonList people={people} />
+        <button onClick={addPerson} className="btn add-btn">
+          Add Random Person
+        </button>
+        <button
+          onClick={() => {
+            setPeople([]);
+          }}
+          className="btn clear-btn"
+        >
+          Clear All
+        </button>
+      </div>
+    </main>
+  );
 }
