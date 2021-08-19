@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/randomPeopleGenerator/static/css/main.16c7b55a.chunk.css",
-    "main.js": "/randomPeopleGenerator/static/js/main.1fc3469e.chunk.js",
-    "main.js.map": "/randomPeopleGenerator/static/js/main.1fc3469e.chunk.js.map",
+    "main.css": "/randomPeopleGenerator/static/css/main.53a974fe.chunk.css",
+    "main.js": "/randomPeopleGenerator/static/js/main.e1781749.chunk.js",
+    "main.js.map": "/randomPeopleGenerator/static/js/main.e1781749.chunk.js.map",
     "runtime-main.js": "/randomPeopleGenerator/static/js/runtime-main.565f131a.js",
     "runtime-main.js.map": "/randomPeopleGenerator/static/js/runtime-main.565f131a.js.map",
     "static/js/2.cfaf8368.chunk.js": "/randomPeopleGenerator/static/js/2.cfaf8368.chunk.js",
     "static/js/2.cfaf8368.chunk.js.map": "/randomPeopleGenerator/static/js/2.cfaf8368.chunk.js.map",
     "index.html": "/randomPeopleGenerator/index.html",
-    "static/css/main.16c7b55a.chunk.css.map": "/randomPeopleGenerator/static/css/main.16c7b55a.chunk.css.map",
+    "static/css/main.53a974fe.chunk.css.map": "/randomPeopleGenerator/static/css/main.53a974fe.chunk.css.map",
     "static/js/2.cfaf8368.chunk.js.LICENSE.txt": "/randomPeopleGenerator/static/js/2.cfaf8368.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.565f131a.js",
     "static/js/2.cfaf8368.chunk.js",
-    "static/css/main.16c7b55a.chunk.css",
-    "static/js/main.1fc3469e.chunk.js"
+    "static/css/main.53a974fe.chunk.css",
+    "static/js/main.e1781749.chunk.js"
   ]
 }
