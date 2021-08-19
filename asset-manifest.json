@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/randomPeopleGenerator/static/css/main.53a974fe.chunk.css",
-    "main.js": "/randomPeopleGenerator/static/js/main.e1781749.chunk.js",
-    "main.js.map": "/randomPeopleGenerator/static/js/main.e1781749.chunk.js.map",
+    "main.js": "/randomPeopleGenerator/static/js/main.8b74e0bf.chunk.js",
+    "main.js.map": "/randomPeopleGenerator/static/js/main.8b74e0bf.chunk.js.map",
     "runtime-main.js": "/randomPeopleGenerator/static/js/runtime-main.565f131a.js",
     "runtime-main.js.map": "/randomPeopleGenerator/static/js/runtime-main.565f131a.js.map",
     "static/js/2.cfaf8368.chunk.js": "/randomPeopleGenerator/static/js/2.cfaf8368.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.565f131a.js",
     "static/js/2.cfaf8368.chunk.js",
     "static/css/main.53a974fe.chunk.css",
-    "static/js/main.e1781749.chunk.js"
+    "static/js/main.8b74e0bf.chunk.js"
   ]
 }
